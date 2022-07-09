@@ -10,19 +10,30 @@ export const About = (): JSX.Element => {
     >
       <h1>About Page</h1>
       <p>
-        I am Kevin Seon, I am currently a Junior studying Computer Science and Math at UT Austin. 
+        I am Kevin (Minwoo) Seon, I am currently a Junior studying Computer
+        Science and Math at UT Austin.
       </p>
-      <br></br>
       <p>
-        My interests are mostly in CyberSecurity and Software/Backend, but I am still exploring things! 
-        I love trying to break things (most of the time, unintentionally breaking things...) to see how they work. I love participating in CTFs or other cybersecurity related competitions ({' '}<a href = "https://www.nationalccdc.org/">NCCDC</a> 4th Place last year!), 
-        and creating different type of projects in my free time. Other things I love to do in my free time are playing the violin, enjoying video games,
-        going to the gym, and playing shogi (Japanese chess, I am really rusty... so I am trying to get back into it) 
+        My interests are mostly in CyberSecurity and Software/Backend, but I am
+        still exploring things! I love trying to break things (most of the time,
+        unintentionally breaking things...) to see how they work. I love
+        participating in CTFs or other cybersecurity related competitions ({' '}
+        <a href="https://www.nationalccdc.org/">NCCDC</a> 4th Place last year!),
+        and creating different type of projects in my free time. Other things I
+        love to do in my free time are playing the violin, enjoying video games,
+        going to the gym, and playing shogi (Japanese chess, I am really
+        rusty... so I am trying to get back into it).
       </p>
-      <br></br>
       <p>
-        Hopefully once every few decade, I will put up an interesting posts (not long, I am terrible at writing) about things I run into so that
-        I can look back and remember and enjoy it again. 
+        Hopefully once every few decade, I will put up an interesting posts (not
+        long, I am terrible at writing) about things I run into so that I can
+        look back at it. Feel free to contact me at{' '}
+        <a href="mailto: mwseon@gmail.com">mwseon@gmail.com</a> for questions or
+        resume.
+      </p>
+      <p className="text-xs">
+        This website may or may not be running on vulnerable versions of
+        packages... but it&apos;s not worth the time I promise!
       </p>
     </Layout>
   );

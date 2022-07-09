@@ -5,6 +5,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import { getAllPosts } from '../lib/api';
 import { PostType } from '../types/post';
+import ReactTypingEffect from 'react-typing-effect';
 
 type IndexProps = {
   posts: PostType[];
@@ -13,14 +14,21 @@ type IndexProps = {
 export const Index = ({ posts }: IndexProps): JSX.Element => {
   return (
     <Layout>
-      <h1>Hello! I am Kevin</h1>
-      <p>This is just a minimalistic website just to keep some cool things on web :D
-      </p>
-      <p>
-      These are all mix of bunch of random topics so... but it is still heavily in development at the moment... 
+      <h1 className="mb-1 font-mono text-4xl md:text-6xl tracking-tighter">
+        <ReactTypingEffect
+          text={["Hi! I'm Kevin"]}
+          speed={250}
+          eraseDelay={5000000}
+        />
+      </h1>
+      <p className="pb-5 pt-5 mb-2 text-l text-gray-100 md:text-l ">
+        This is just a place for me to keep some cool things on web :D <br></br>
+        There&apos;s not much going around but feel free to look around!
       </p>
       <a
         href="https://github.com/kevinseonpj"
+        target="_blank"
+        rel="noopener noreferrer"
         className="inline-block px-7 py-3 rounded-md text-white dark:text-white bg-blue-600 hover:bg-blue-800 hover:text-white dark:hover:text-white"
       >
         My Github
@@ -47,15 +55,15 @@ export const Index = ({ posts }: IndexProps): JSX.Element => {
         </article>
       ))}
       <footer className="py-14">
-          <div className="max-w-5xl mx-auto">
-            Inspired from template by {' '}
-            <a
-              className="text-gray-900 dark:text-gray"
-              href="https://github.com/ChangoMan/nextjs-typescript-mdx-blog"
-            >
-              Hunter Chang
-            </a>
-          </div>
+        <div className="max-w-5xl mx-auto">
+          Inspired from template by{' '}
+          <a
+            className="text-gray-900 dark:text-gray"
+            href="https://github.com/ChangoMan/nextjs-typescript-mdx-blog"
+          >
+            Hunter Chang
+          </a>
+        </div>
       </footer>
     </Layout>
   );
