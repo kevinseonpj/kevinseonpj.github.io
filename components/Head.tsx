@@ -8,9 +8,8 @@ import { MetaProps } from '../types/layout';
 const Head = ({ customMeta }: { customMeta?: MetaProps }): JSX.Element => {
   // const router = useRouter();
   const meta: MetaProps = {
-    title: 'Kevin\'s Website',
-    description:
-      ':D',
+    title: "Kevin's Website",
+    description: ':D',
     image: ``,
     type: 'website',
     ...customMeta,

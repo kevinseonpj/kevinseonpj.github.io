@@ -17,6 +17,9 @@
   }
 }
 
+.social-icon {
+  margin: 0 5px;
+}
 /* Post styles */
 .prose pre {
   @apply bg-gray-50 border border-gray-200 dark:border-gray-700 dark:bg-gray-900;

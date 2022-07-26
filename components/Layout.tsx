@@ -24,7 +24,6 @@ const Layout = ({ children, customMeta }: LayoutProps): JSX.Element => {
       <main>
         <div className="max-w-5xl px-8 py-4 mx-auto">{children}</div>
       </main>
-      
     </>
   );
 };
