@@ -42,8 +42,7 @@ export const Index = ({ posts }: IndexProps): JSX.Element => {
           This is just a place for me to occasionally talk about things that I
           find interesting.
           <br></br>
-          There&apos;s not much around at the moment but feel free to look
-          around!
+          There&apos;s not much at the moment but feel free to look around!
           <br></br>
           Built with Next.js, MDX, TailwindCSS, FramerMotion, and RSuite.
         </p>
