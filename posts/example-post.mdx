@@ -1,36 +1,37 @@
 ---
 title: Riot APIs (and some other interesting things)
-description: Usage of the Riot API (Riot as in the gaming company who made League of Legends)
+description: My initial impression of Riot API (Riot as in the gaming company who made League of Legends)
 date: '2021-05-29'
 ---
 
-### Riot API 
+### Riot API
 
-At the beginning of summer, I decided that I wanted to look more into dev side of Riot's game (mostly in League of Legends) 
+At the beginning of summer, I decided that I wanted to look more into dev side of Riot's game (mostly in League of Legends)
 since I really enjoyed the game, but no one can can survive a constant gaming on the rift... unless, you are Tyler1, of course.
 
-Anyways, I wanted to see how popular tools like op.gg, u.gg, and other tools were collecting their informations. My plan was to 
+Anyways, I wanted to see how popular tools like op.gg, u.gg, and other tools were collecting their informations. My plan was to
 mimic some sort of the same information collection (which I ended up doing pretty quickly) and use those informations to train and
-do some simple modeling using sklearn or something similar to predict game outcomes. 
+do some simple modeling using sklearn or something similar to predict game outcomes.
 
 The Riot APIs themselves were pretty straight forward to use and test out thanks to their dev portal that allows you to test API calls
 pretty easily without setting anything up. However, I did end up running into performance issue in collecting and parsing those information
-for the input players and storing those data as a method of cacheing for the future. I could always speed this up by just scraping the 
-website such as opgg which already stores numerous player data already, but I haven't had the chance the tackle the modeling and 
-calculation so I will come back to that once I do have some more time. 
+for the input players and storing those data as a method of cacheing for the future. I could always speed this up by just scraping the
+website such as opgg which already stores numerous player data already, but I haven't had the chance the tackle the modeling and
+calculation (which I actually I look forward to doing once I get some time on it) so I will come back to that once I do have some more time.
 
-In the mean time, I will probably try to contribute to more well established league prediction project such as [zilean](https://github.com/JohnsonJDDJ/zilean) 
-(although a different methods than what I was going for but similar directions), and include some cool things I found while interacting with Riot API here in the future. (I'll come back!)
+In the mean time, I will probably try to contribute to more well established league prediction project such as [zilean](https://github.com/JohnsonJDDJ/zilean)
+(although a different methods than what I was going for but similar directions), and include some cool things I found while interacting with Riot API here in the future. 
+(I am talking about stuff like how they call Wukong as 'monkeyking' in their json data and etc, but I'll come back!)
 
 ## Image Problem (off-topic)
 
 This is just a completely off-topic paragraph, but if anyone knows why I can't load images using the Image component from nextjs
-let me know. I'm using it like the following, and again I'm not the most js person so... >.> It used to work, but I must've messed some configuration somewhere. 
+let me know. I'm using it like the following, and again I'm not the most js person so... >.> It used to work, but I must've messed some configuration somewhere.
 
 ```jsx:example-post.mdx
 <Image
-  alt={`yuumi`}
-  src={`/images/yuumi.jpg`}
+  alt={`image`}
+  src={`/images/image.jpg`}
   width={640}
   height={360}
   priority

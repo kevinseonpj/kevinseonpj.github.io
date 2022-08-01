@@ -39,9 +39,11 @@ export const Index = ({ posts }: IndexProps): JSX.Element => {
           />
         </h1>
         <p className="pb-0 pt-5 mb-2 text-l md:text-l ">
-          This is just a place for me to keep some cool things on web :D{' '}
+          This is just a place for me occasionally talk about things that I find
+          interesting.
           <br></br>
-          There&apos;s not much going around but feel free to look around!
+          There&apos;s not much going around at the moment but feel free to look
+          around!
         </p>
         <h1>
           <ButtonToolbar>
