@@ -39,11 +39,13 @@ export const Index = ({ posts }: IndexProps): JSX.Element => {
           />
         </h1>
         <p className="pb-0 pt-5 mb-2 text-l md:text-l ">
-          This is just a place for me occasionally talk about things that I find
-          interesting.
+          This is just a place for me to occasionally talk about things that I
+          find interesting.
           <br></br>
-          There&apos;s not much going around at the moment but feel free to look
+          There&apos;s not much around at the moment but feel free to look
           around!
+          <br></br>
+          Built with Next.js, MDX, TailwindCSS, FramerMotion, and RSuite.
         </p>
         <h1>
           <ButtonToolbar>
