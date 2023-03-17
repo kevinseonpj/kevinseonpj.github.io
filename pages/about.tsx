@@ -36,9 +36,9 @@ export const About = (): JSX.Element => {
           My email is mwseon@gmail.com and my discord is Apkpj#0930 if you want
           to reach out!
         </p>
-        <p className="text-xs mr-12 ">
+        {/* <p className="text-xs mr-12 ">
           I love free food plz lmk if there are any free food anywhere
-        </p>
+        </p> */}
       </Layout>
     </motion.div>
   );

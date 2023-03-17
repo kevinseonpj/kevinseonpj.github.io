@@ -10,6 +10,12 @@ const Navigation = (): JSX.Element => {
       <Link href="/about">
         <a className="text-gray-900 dark:text-white px-6 py-4">About</a>
       </Link>
+      <Link href="/TIL">
+        <a className="rounded-lg bg-gradient-to-r from-red-500 via-orange-500 via-yellow-500 via-green-500 via-blue-500 via-indigo-500 to-purple-500 text-gray-900 dark:text-white px-6 py-4">
+          TIL
+        </a>
+        {/* <a className="text-gray-900 dark:text-white px-6 py-4">TIL</a> */}
+      </Link>
     </nav>
   );
 };

@@ -15,8 +15,12 @@ import { motion } from 'framer-motion';
 type IndexProps = {
   posts: PostType[];
 };
+// let dateString = new Date().toDateString();
+// let LAST_UPDATED = JSON.stringify(dateString)
 
 export const Index = ({ posts }: IndexProps): JSX.Element => {
+  const filteredPosts = posts.filter((post) => !post.slug.includes('TIL'));
+
   return (
     <motion.div
       initial="pageInitial"
@@ -84,7 +88,31 @@ export const Index = ({ posts }: IndexProps): JSX.Element => {
           </ButtonToolbar>
         </h1>
 
-        {posts.map((post) => (
+        {/* redefine the posts so that it only contains posts that don't have the keyword TIl */}
+
+        {/* {posts = filteredPosts} */}
+        {/* {posts.map((post) => (
+          <article key={post.slug} className="mt-12">
+            <p className="mb-1 text-sm text-gray-500 dark:text-gray-400">
+              {format(parseISO(post.date), 'MMMM dd, yyyy')}
+            </p>
+            <h1 className="mb-2 text-xl">
+              <Link as={`/posts/${post.slug}`} href={`/posts/[slug]`}>
+                <a className="text-gray-900 dark:text-white dark:hover:text-blue-400">
+                  {post.title}
+                </a>
+              </Link>
+            </h1>
+            <p className="mb-3">{post.description}</p>
+            <p>
+              <Link as={`/posts/${post.slug}`} href={`/posts/[slug]`}>
+                <a>Read More</a>
+              </Link>
+            </p>
+          </article>
+        ))} */}
+
+        {filteredPosts.map((post) => (
           <article key={post.slug} className="mt-12">
             <p className="mb-1 text-sm text-gray-500 dark:text-gray-400">
               {format(parseISO(post.date), 'MMMM dd, yyyy')}
