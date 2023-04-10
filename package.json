@@ -27,6 +27,7 @@
     ]
   },
   "dependencies": {
+    "@egjs/react-flicking": "^4.10.8",
     "@tailwindcss/typography": "^0.4.1",
     "date-fns": "^2.19.0",
     "framer-motion": "^6.5.1",
