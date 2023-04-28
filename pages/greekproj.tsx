@@ -194,7 +194,7 @@ export const test = (): JSX.Element => (
         many heroes from Greek mythology have been redefined to fit our current
         modern times. I will be exploring the definition of a hero and how
         Odysseus fits and also how he has been redefined if any at all. And
-        Lastly what this difference in his heroism says about the cultural
+        Lastly what does this difference in his heroism says about the cultural
         values within the context? So let&apos;s begin with the definition of a
         hero. Merriam-Webster defines them to be more general as &ldquo;a
         mythological or legendary figure often of divine descent endowed with
@@ -239,14 +239,16 @@ export const test = (): JSX.Element => (
         apparent that there are other heroes such as Aeneas with his leadership,
         and even Theseus with his cleverness survives the labyrinth. So it is
         clear that Odysseus deserves his title of Hero in his ability to be
-        cunning and clever in his journey and his connection to the Gods. The
-        definition that I lean toward is the Merriam-Webster definition. Then
+        cunning and clever in his journey and his connection to the Gods. So in
+        theory, we should all lean toward the Merriam-Webster definition. Then
         why is it that sometimes we don&apos;t see Odysseus as a hero? Why is it
-        that this question was even asked? Well, I think it lies in the
-        development and the redefined characterization of heroes in our modern
-        times. Let&apos;s take a look at some of the heroes that we see in our
-        modern times in pictures, and see what that tells us about the cultural
-        values and how it has changed since the time of the Greeks. Then,
+        that this question was even asked? Sometimes, Greek Myth almost feels
+        like they give Odysseus the &ldquo;Hero&ldquo; status largely due to his
+        tie with the Gods. Well, I think it lies in the development and the
+        redefined characterization of heroes in our modern times. Let&apos;s
+        take a look at some of the heroes that we see in our modern times in
+        pictures, and see what that tells us about the cultural values and how
+        it has changed since the time of the Greeks. Then,
       </div>
       <div style={{ height: '20px' }} />
       <div className="text-center italic">
@@ -317,14 +319,14 @@ export const test = (): JSX.Element => (
         I think we are initially obsessed with the physical prowess of the heroes, and that's purely due to how most of us grow up 
         loving the idea of becoming a powerful character saving the world, and it's often harder to see looking up to intelligence in any context.
         It is also apparent that many modern fantasies and media have created a diverging identity of some of the heroes. One of the biggest and the most obvious 
-        examples is Percy Jackson. Many people often don't even know that Perseus is the son of Zeus, and as you saw from some of the AI generations, many images 
-        have shown that mix of truth and modern fantasy.  I think this is a great example of how time has changed the perception of heroes. (Continue to the next paragraph below)"
+        examples is Percy Jackson. Many people who learn their first Greek Myth from Percy Jackson discovers later that Perseus is the son of Zeus and not Poseidon, and as you saw from some of the AI generations, many images 
+        have shown that mix of truth and modern fantasy due to what has been fed in the AI generation training data.  I think this is a great example of how time has changed the perception of heroes. (Continue to the next paragraph below)"
       />
       <div style={{ height: '20px' }} />
       <AnimatedText
         text="I think this difference in the depiction of heroes gives us a measurement of how our cultural values have changed over time. It is also heavily more accepted
         now that heroes are not just the ones with physical prowess, but also the ones with intelligence and leadership. We have heavily moved past the simple idea of power from 
-        the growth of technology, health, and education. This is more apparent in our society where we appreciate many working-class heroes such as doctors, nurses, teachers, etc. 
+        the growth of technology, health, and education, and this movement long history of growth in obtaining knowledge as we become more civilized. This is more apparent in our society where we appreciate many working-class heroes such as doctors, nurses, teachers, etc. 
         However, even beyond that, we began to see heroes in fantasy such as Marvel that address leadership, and intelligence as their identity and not just extreme physical prowess.
         I would even argue Captain America is one of the heroes that fall into these categories. I think these changes in our cultural values have changed how we perceive Odysseus as a hero.
         Even though Odysseus was often seen as the hero partly due to his Godly connection since cultural values at the time heavily valued this, now we are able to redefine his position as a hero
