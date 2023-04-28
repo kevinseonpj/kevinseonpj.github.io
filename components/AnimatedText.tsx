@@ -74,7 +74,7 @@ export default function AnimatedText({ text }: AnimateProp) {
             animate={ctrls}
             variants={wordAnimation}
             transition={{
-              delayChildren: index * 0.25,
+              delayChildren: index * 0.1,
               staggerChildren: 0.05,
             }}
           >
